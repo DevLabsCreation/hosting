@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Hosting a Website on GitHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=44484&format=png&color=000000" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      padding-top: 80px;
+    }
+
+    nav {
+      background: #0082e6;
+      height: 80px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+
+    label.logo {
+      color: white;
+      font-size: 25px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 100px 0;
+      background: #f4f4f4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .step {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .step h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <label class="logo">DevLabsCreation</label>
+  </nav>
+  <section>
+    <div class="container">
+      <h2>Hosting a Website on GitHub</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>Step 1: Create a GitHub Account</h3>
+          <p>1. Go to <a href="https://github.com/" target="_blank">GitHub.com</a> and click on "Sign up" in the top right corner.</p>
+          <p>2. Fill out the registration form with your details and click on "Create account."</p>
+          <p>3. Verify your email address by clicking on the link sent to you by GitHub.</p>
+        </div>
+        <div class="step">
+          <h3>Step 2: Create a New Repository</h3>
+          <p>1. Log in to your GitHub account and click on the "+" icon in the top right corner.</p>
+          <p>2. Select "New repository" and fill out the repository name and description.</p>
+          <p>3. Choose "Public" or "Private" depending on your needs and click on "Create repository."</p>
+        </div>
+        <div class="step">
+          <h3>Step 3: Upload Your Website Files</h3>
+          <p>1. Go to your repository and click on "Add file" > "Upload files."</p>
+          <p>2. Drag and drop your website files (HTML, CSS, JS, images, etc.) into the upload area.</p>
+          <p>3. Commit the changes with a meaningful message.</p>
+        </div>
+        <div class="step">
+          <h3>Step 4: Configure GitHub Pages</h3>
+          <p>1. Go to your repository settings and scroll down to "GitHub Pages."</p>
+          <p>2. Select the branch you want to use for GitHub Pages (usually "main" or "master").</p>
+          <p>3. Save the changes and wait for GitHub to build your website.</p>
+        </div>
+        <div class="step">
+          <h3>Step 5: Visit Your Website</h3>
+          <p>1. Once GitHub Pages is configured, you can visit your website at <a href="https://your-username.github.io/your-repo-name" target="_blank">https://your-username.github.io/your-repo-name</a>.</p>
+          <p>2. Replace "your-username" and "your-repo-name" with your actual GitHub username and repository name.</p>
+        </div>
+        <div class="step">
+          <h3>Additional Resources</h3>
+          <p>For more information, visit the official <a href="https://docs.github.com/en/pages" target="_blank">GitHub Pages documentation</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DevLabsCreation. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
